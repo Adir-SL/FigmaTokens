@@ -3,7 +3,7 @@
 
 function testLink(){
     // window.location.replace("https://api.figma.com/v1/files/hb3RO2j2NG55RGChNokQJQ");
-    getFigmaObjTree(9RHnWMKTbB3kwMrboNxMrmmu2Inj1R, hb3RO2j2NG55RGChNokQJQ);
+    // getFigmaObjTree(9RHnWMKTbB3kwMrboNxMrmmu2Inj1R, hb3RO2j2NG55RGChNokQJQ);
 }
 
 async function getFigmaObjTree(figmaApiKey, figmaId) {
@@ -16,3 +16,5 @@ async function getFigmaObjTree(figmaApiKey, figmaId) {
     let figmaTreeStructure = await result.json();
     console.log(figmaTreeStructure);
 }
+
+getFigmaObjTree(9RHnWMKTbB3kwMrboNxMrmmu2Inj1R, hb3RO2j2NG55RGChNokQJQ);
