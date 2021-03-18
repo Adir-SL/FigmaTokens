@@ -8,7 +8,7 @@
     <!-- <script src="script.js"></script> -->
 </head>
 <body>
-    Soon hopefully<br/><br/>
+    <div id="demo"></div><br/><br/>
     <button onclick='getFigmaObjTree("166075-78ab5635-40a7-4092-af8d-e9eb40574bbf", "hb3RO2j2NG55RGChNokQJQ");'>GET DOC</button>
     <script>
         async function getFigmaObjTree(figmaApiKey, figmaId) {
@@ -21,6 +21,12 @@
             let figmaTreeStructure = await result.json();
             console.log(figmaTreeStructure);
             window.myDoc = figmaTreeStructure;
+            document.getElementById("demo").innerHTML = "";
+            for (x in myDoc.styles) {
+                // console.log(myDoc.styles[x]["name"])
+                document.getElementById("demo").innerHTML += myDoc.styles[x]["name"]
+                document.getElementById("demo").innerHTML += "<br/>";
+            }
         }
 
     </script>
