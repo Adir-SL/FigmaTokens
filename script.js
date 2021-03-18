@@ -17,4 +17,4 @@ async function getFigmaObjTree(figmaApiKey, figmaId) {
     console.log(figmaTreeStructure);
 }
 
-getFigmaObjTree("9RHnWMKTbB3kwMrboNxMrmmu2Inj1R", "hb3RO2j2NG55RGChNokQJQ");
+getFigmaObjTree(9RHnWMKTbB3kwMrboNxMrmmu2Inj1R, "hb3RO2j2NG55RGChNokQJQ");
