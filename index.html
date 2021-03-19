@@ -27,7 +27,7 @@
                 document.getElementById("demo").innerHTML += "<br/>";
             }
             for (x in myDoc.document.children[0].children) {
-                document.getElementById("demo").innerHTML += "<button style='background-color:rgba("+myDoc.document.children[0].children[x].fills[0].color.r*255+","+myDoc.document.children[0].children[x].fills[0].color.g*255+","+myDoc.document.children[0].children[x].fills[0].color.b*255+","+myDoc.document.children[0].children[x].fills[0].color.a+")'>Click me</button>";
+                document.getElementById("demo").innerHTML += "<button style='background-color:rgba("+myDoc.document.children[0].children[x].fills[0].color.r*255+","+myDoc.document.children[0].children[x].fills[0].color.g*255+","+myDoc.document.children[0].children[x].fills[0].color.b*255+","+myDoc.document.children[0].children[x].fills[0].color.a+")' title='"+document.querySelectorAll("span")[x].innerText+"'>Click me</button>";
                 document.getElementById("demo").innerHTML += "<br/>";
             }
         }
