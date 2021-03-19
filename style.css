@@ -1,21 +1,25 @@
 body {
-  font-family: helvetica, arial, sans-serif;
+    font-family: helvetica, arial, sans-serif;
+}
+span{
+    margin: 16px;
+    line-height: 150%;
 }
 button{
-  margin: 8px;
-  outline: none;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  color: white;
-  cursor: pointer;
+    margin: 8px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
 }
 button:hover{
-  filter: brightness(105%);
+    filter: brightness(105%);
 }
 button:focus{
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.4) inset;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.4) inset;
 }
 button:active{
-  filter: brightness(95%);
+    filter: brightness(95%);
 }
