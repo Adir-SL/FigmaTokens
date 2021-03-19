@@ -1,6 +1,9 @@
 // 9RHnWMKTbB3kwMrboNxMrmmu2Inj1R
 // https://adir-sl.github.io/FigmaTokens/
 
+// QAaTBuBDhbwFXbzVfIIUmU
+// hb3RO2j2NG55RGChNokQJQ
+
 function testLink(){
     // window.location.replace("https://api.figma.com/v1/files/hb3RO2j2NG55RGChNokQJQ");
     // getFigmaObjTree(9RHnWMKTbB3kwMrboNxMrmmu2Inj1R, hb3RO2j2NG55RGChNokQJQ);
