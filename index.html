@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Token Test</title>
-    <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="demo"></div><br/><br/>
@@ -23,8 +23,11 @@
             window.myDoc = figmaTreeStructure;
             document.getElementById("demo").innerHTML = "";
             for (x in myDoc.styles) {
-                // console.log(myDoc.styles[x]["name"])
                 document.getElementById("demo").innerHTML += myDoc.styles[x]["name"]
+                document.getElementById("demo").innerHTML += "<br/>";
+            }
+            for (x in myDoc.document.children[0].children) {
+                document.getElementById("demo").innerHTML += "<button style='background-color:rgba("+myDoc.document.children[0].children[x].fills[0].color.r*255+","+myDoc.document.children[0].children[x].fills[0].color.g*255+","+myDoc.document.children[0].children[x].fills[0].color.b*255+","+myDoc.document.children[0].children[x].fills[0].color.a+")'>Click me</button>";
                 document.getElementById("demo").innerHTML += "<br/>";
             }
         }
