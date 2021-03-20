@@ -23,3 +23,28 @@ button:focus{
 button:active{
     filter: brightness(95%);
 }
+
+#linkDiv{
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+}
+a{
+    color: orangered;
+    text-decoration: none;
+}
+a:hover{
+    filter: brightness(115%);
+}
+a::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    border-bottom: 2px solid;
+}
+a:hover::after{
+    width: 100%;
+    transition: width 300ms linear;
+}
