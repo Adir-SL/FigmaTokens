@@ -15,6 +15,13 @@
             display:flex;
             justify-content: space-evenly;
         }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover div{
+            opacity: .8;
+        }
         .itemDiv{}
         .iconDiv{
             background-color: pink;
@@ -35,12 +42,16 @@
 <body>
     <div id="wrapper">
         <div class="itemDiv">
-            <div class="iconDiv">G</div>
-            <div class="nameDiv">Github</div>
+            <a href="https://www.github.com">
+                <div class="iconDiv">G</div>
+                <div class="nameDiv">Github</div>
+            </a>
         </div>
         <div class="itemDiv">
-            <div class="iconDiv">R</div>
-            <div class="nameDiv">Raindrop</div>
+            <a href="https://www.raindrop.io">
+                <div class="iconDiv">R</div>
+                <div class="nameDiv">Raindrop</div>
+            </a>
         </div>
     </div>
 </body>
