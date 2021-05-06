@@ -47,7 +47,7 @@
     <script>
         function searchFunc(){
             if (event.keyCode === 13) {
-                document.getElementById("searchField").value.replaceAll(" ", "+")
+                window.location.replace("https://www.google.com/search?q="+document.getElementById("searchField").value.replaceAll(" ", "+"));
             }
         }
     </script>
