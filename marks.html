@@ -45,7 +45,9 @@
         }
     </style>
     <script>
-        function searchFunc(){}
+        function searchFunc(){
+            alert(document.getElementById("searchField").value.replaceAll(" ", "+"));
+        }
     </script>
 </head>
 <body>
