@@ -47,8 +47,11 @@
     <script>
         function searchFunc(){
             if (event.keyCode === 13) {
-                // window.location.replace("https://www.google.com/search?q="+document.getElementById("searchField").value.replaceAll(" ", "+"));
-                window.location.replace(document.getElementById("searchField").value);
+                if(document.getElementById("searchField").value.slice(0,4) == "www." || document.getElementById("searchField").value.slice(0,4) == "http"){
+                    window.location.replace(document.getElementById("searchField").value);
+                }else{
+                    window.location.replace("https://www.google.com/search?q="+document.getElementById("searchField").value.replaceAll(" ", "+"));
+                }
             }
         }
     </script>
