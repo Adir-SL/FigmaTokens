@@ -51,10 +51,15 @@
             transform: scale(2);
         }
         #searchField{
-            padding: 0.4em 1em;
+            padding: 0.6em 1em;
             margin: 1em;
             width: calc(100% - 4em);
             border-radius: 999px;
+            outline: none;
+            border: 2px solid darkblue;
+        }
+        #searchField::placeholder{
+            color: #888;
         }
     </style>
     <script>
