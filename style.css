@@ -21,7 +21,7 @@ button:focus{
     box-shadow: 0 0 0 1px rgba(0,0,0,0.4) inset;
 }
 button:active{
-    filter: brightness(95%);
+    opacity: .8;
 }
 
 #linkDiv{
