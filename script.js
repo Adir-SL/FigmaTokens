@@ -18,4 +18,5 @@ async function getFigmaObjTree(figmaApiKey, figmaId) {
         document.getElementById("demo").innerHTML += "<br/>";
     }
 }
-getFigmaObjTree("166075-78ab5635-40a7-4092-af8d-e9eb40574bbf", "QAaTBuBDhbwFXbzVfIIUmU");
+getFigmaObjTree("figd_or8c8jVNaKZJQYwW-v3nwadNZtrLMXSAxtcKIv2l", "QAaTBuBDhbwFXbzVfIIUmU");
+// "figd_or8c8jVNaKZJQYwW-v3nwadNZtrLMXSAxtcKIv2l"
