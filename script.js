@@ -18,6 +18,11 @@ async function getFigmaObjTree(figmaApiKey, figmaId) {
         document.getElementById("demo").innerHTML += "<br/>";
     }
 }
-getFigmaObjTree("figd_or8c8jVNaKZJQYwW-v3nwadNZtrLMXSAxtcKIv2l", "QAaTBuBDhbwFXbzVfIIUmU");
+
+
+setInterval(function(){
+	getFigmaObjTree("figd_or8c8jVNaKZJQYwW-v3nwadNZtrLMXSAxtcKIv2l", "QAaTBuBDhbwFXbzVfIIUmU");
+}, 300);
+
 // getFigmaObjTree("166075-78ab5635-40a7-4092-af8d-e9eb40574bbf", "QAaTBuBDhbwFXbzVfIIUmU");
 // "figd_or8c8jVNaKZJQYwW-v3nwadNZtrLMXSAxtcKIv2l"
