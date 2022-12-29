@@ -19,7 +19,6 @@ async function getFigmaObjTree(figmaApiKey, figmaId) {
     }
 }
 
-
 getFigmaObjTree("figd_or8c8jVNaKZJQYwW-v3nwadNZtrLMXSAxtcKIv2l", "QAaTBuBDhbwFXbzVfIIUmU");
 
 // getFigmaObjTree("166075-78ab5635-40a7-4092-af8d-e9eb40574bbf", "QAaTBuBDhbwFXbzVfIIUmU");
